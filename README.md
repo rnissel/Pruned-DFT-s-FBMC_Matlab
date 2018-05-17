@@ -3,7 +3,7 @@
 
 
 Pruned DFT spread FBMC is a novel modulation scheme with the remarkable properties of a low PAPR, low latency transmissions and a high spectral efficiency.
-It is closely related to FBMC, OFDM and SC-FDMA and I first proposed it in my [PhD thesis](http://publik.tuwien.ac.at/files/publik_265168.pdf#page=117), see Chapter 6. A more detailed description can be found in R. Nissel and M. Rupp, [“Pruned DFT Spread FBMC: Low PAPR,Low Latency, High Spectral Efficiency”](https://ieeexplore.ieee.org/document/8360161/), IEEE Transactions on Communications, 2018. 
+It is closely related to FBMC, OFDM and SC-FDMA and I first proposed it in my [PhD thesis](http://publik.tuwien.ac.at/files/publik_265168.pdf#page=117), see Chapter 6. A more detailed description can be found in R. Nissel and M. Rupp, [“Pruned DFT Spread FBMC: Low PAPR, Low Latency, High Spectral Efficiency”](https://ieeexplore.ieee.org/document/8360161/), IEEE Transactions on Communications, 2018. 
 All figures from this paper can be reproduced with this repository.
  
 
@@ -33,7 +33,7 @@ We used Windows 7 (64bit) and Matlab R2013b/2016a, but newer versions (and some 
 
 
 ## Reproducible Figures
-All figure from [“Pruned DFT Spread FBMC: Low PAPR,Low Latency, High Spectral Efficiency”](https://ieeexplore.ieee.org/document/8360161/) can be reproduced. To keep the simulation time short, this repository uses slightly different parameters than in our paper and one has to uncomment certain lines to truly reproduce the corresponding figures.
+All figure from [“Pruned DFT Spread FBMC: Low PAPR, Low Latency, High Spectral Efficiency”](https://ieeexplore.ieee.org/document/8360161/) can be reproduced. To keep the simulation time short, this repository uses slightly different parameters than in our paper and one has to uncomment certain lines to truly reproduce the corresponding figures.
 
 * **Figure  1**: 
 Just an illustration.	
@@ -91,7 +91,7 @@ Please run [`Figure_14_FlatMIMOthroughput.m`](Figure_14_FlatMIMOthroughput.m). T
 ----------
 ### Additional Matlab files:
 * [`Info_ComputationalComplexity.m`](Info_ComputationalComplexity.m): Compares the computational complexity of pruned DFT spread FBMC, SC-FDMA and "Low PAPR FBMC".
-* [`Info_SpectraleffciencyInfSubcarriers`](Info_SpectraleffciencyInfSubcarriers): Compares the spectral efficiency of OFDM and SC-FDMA for infinitely many subcarriers (SC-FDMA is equivalent to pruned DFT spread FBMC). 
+* [`Info_SpectraleffciencyInfSubcarriers.m`](Info_SpectraleffciencyInfSubcarriers.m): Compares the spectral efficiency of OFDM and SC-FDMA for infinitely many subcarriers (SC-FDMA is equivalent to pruned DFT spread FBMC). 
 
 
 ## Please Cite Our Paper
@@ -111,7 +111,7 @@ Please run [`Figure_14_FlatMIMOthroughput.m`](Figure_14_FlatMIMOthroughput.m). T
 
 
 ## References
-- R. Nissel and M. Rupp, [“Pruned DFT Spread FBMC: Low PAPR,Low Latency, High Spectral Efficiency”](https://ieeexplore.ieee.org/document/8360161/), IEEE Transactions on Communications, 2018 to appear.
+- R. Nissel and M. Rupp, [“Pruned DFT Spread FBMC: Low PAPR, Low Latency, High Spectral Efficiency”](https://ieeexplore.ieee.org/document/8360161/), IEEE Transactions on Communications, 2018 to appear.
 - R. Nissel, [“Filter bank multicarrier modulation for future wireless systems”](http://publik.tuwien.ac.at/files/publik_265168.pdf), Dissertation, TU Wien, 2017.
 
 
